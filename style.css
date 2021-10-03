@@ -542,7 +542,21 @@ body {
   width: 20px !important;
 }
 
+.papers svg {
+  margin-right:7px;
+}
+
 .latest ul {
   padding-left:17px;
   text-align: justify;
+}
+
+.techtag {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #9900cc;
+  border-radius: 7px;
+  opacity: 0.8;
+  font-size: 12px;
+  margin:0 0 3px 0;
 }
