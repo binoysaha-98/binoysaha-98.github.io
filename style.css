@@ -41,7 +41,7 @@ a:focus {
 }
 
 .btn .svg-inline--fa, a.btn .svg-inline--fa {
-  margin-right: 5px;
+  /* margin-right: 5px; */
   position: relative;
   top: -2px;
 }
@@ -248,13 +248,16 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 
 .testimonials .item .quote {
   font-size: 16px;
-  border-left: 5px solid #a37acc;
-  padding: 5px 15px;
+  /* border-left: 5px solid #a37acc;
+  padding: 5px 15px; */
   margin-bottom: 15px;
 }
 
 .testimonials .item .quote p {
   margin-bottom: 0;
+  padding: 0 15px;
+  border-left: 5px solid #a37acc;
+  margin-top: 5px;
 }
 
 .testimonials .item p.source {
@@ -353,7 +356,7 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 
 
 #courses .w3-bar { 
-  border-left: 10px solid #a37acc; 
+  border-left: 5px solid #a37acc; 
   margin: 5px 0;
 }
 
@@ -377,7 +380,7 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 }
 
 .footer {
-  border-top: 10px solid #9973bf; 
+  border-top: 5px solid #9973bf; 
 }
 
 .footer .btn{
@@ -452,7 +455,7 @@ body {
 }
 
 .navbar {
-  border-bottom : 10px solid #9973bf;
+  border-bottom : 5px solid #9973bf;
 }
 
 #aboutme, #interests, #keyprojects, #experience, #contact, #publications {
@@ -460,7 +463,7 @@ body {
   color: #444;
 }
 
-#aboutme p, #experience p, #keyprojects p.mb-2 {
+#aboutme p, #experience p{
   text-align: justify;
 }
 
@@ -470,7 +473,7 @@ body {
   text-align: justify;
 }
 
-.papers ul li {
+.papers ul li, .latest ul li {
   padding: 2px 0;
 }
 
@@ -532,4 +535,14 @@ body {
 
 .footcenter .social {
   padding-top: 7px;
+}
+
+.info svg {
+  display: inline-block;
+  width: 20px !important;
+}
+
+.latest ul {
+  padding-left:14px;
+  text-align: justify;
 }
