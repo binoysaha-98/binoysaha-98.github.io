@@ -443,7 +443,7 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 
 body {
 /*  background: url('https://cdn.glitch.com/2b602e73-9a76-4c51-a6f4-80acecd39acf%2Fcover2.png?v=1602364326902');  */
-  background: url('myfiles/cover2bw.png');
+  background: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
