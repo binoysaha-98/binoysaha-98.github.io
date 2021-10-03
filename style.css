@@ -78,7 +78,8 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 .header {
   padding: 40px 0 30px 0;
   /*background:url('myfiles/cover1.jpg'); */  
-  background-color: white;
+background-color: rgba(0, 0, 0, 0.01);
+  /*background-color: white;*/
 }
 
 .header .btn {
